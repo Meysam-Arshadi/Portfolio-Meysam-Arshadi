@@ -18,6 +18,7 @@ const Navbar = () => {
 				<Link
 					to='/'
 					className='flex items-center gap-2'
+
 					onClick={() => {
 						setActive('')
 						window.scrollTo(0, 0)
@@ -25,6 +26,7 @@ const Navbar = () => {
 				>
 					<img
 						src={meysamLogo}
+
 						alt='logo'
 						className='sm:w-[150px] sm:h-[150px] w-[135px] h-[135px] object-contain'
 					/>
@@ -73,15 +75,12 @@ const Navbar = () => {
 											active === nav.title ? 'text-french' : 'text-eerieBlack'
 										} font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
+
 										onClick={() => {
 											setToggle(!toggle)
 											setActive(nav.title)
 										}}
-										style={{
-											fontSize: '2rem',
-											marginLeft: '10vw',
-											paddingTop: '10vw',
-										}}
+
 									>
 										<a href={`#${nav.id}`}>{nav.title}</a>
 									</li>
