@@ -34,10 +34,7 @@ import anaconda from './tech/anaconda.png'
 import postgresql from './tech/postgresql.png'
 import python from './tech/python.png'
 
-import coverhunt from './company/coverhunt.png'
-import dcc from './company/dcc.png'
-import kelhel from './company/kelhel.png'
-import microverse from './company/microverse.png'
+import work from './company/work.png'
 
 import CYFTASMATE from './projects/CYFTASMATE.jpeg'
 import UNISEFAnalysis from './projects/UNISEFAnalysis.png'
@@ -84,8 +81,5 @@ export {
 	TVShowHub,
 	MRecycle,
 	HotelBooking,
-	coverhunt,
-	dcc,
-	kelhel,
-	microverse,
+	work,
 }
