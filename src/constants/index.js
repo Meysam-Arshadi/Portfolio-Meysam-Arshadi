@@ -24,6 +24,7 @@ import {
 	MRecycle,
 	HotelBooking,
 	work,
+	educationIcon,
 } from '../assets'
 
 export const navLinks = [
@@ -177,15 +178,6 @@ const experiences = [
 const projects = [
 	{
 		id: 'project-1',
-		name: 'Task Management',
-		description:
-			'MVP for a group project task management mobile app built with React, enabling users to manage tasks, track time, and view activity summaries. [UNDER CONSTRUCTION]',
-		image: CYFTASMATE,
-		repo: 'https://github.com/Farnooshmo/time-tracker',
-		demo: 'https://time-tracker-team.vercel.app/',
-	},
-	{
-		id: 'project-2',
 		name: 'Data Analysis',
 		description:
 			'A data analysis solo project on UNICEF Activity File - Albania, ensuring compliance with IATI standards, utilizing Python for testing and validation in Jupyter Notebook within VSCode.',
@@ -194,6 +186,15 @@ const projects = [
 			'https://github.com/Meysam-Arshadi/UNICEF-activity-file-Albania-analysis?tab=readme-ov-file',
 		demo:
 			'https://github.com/Meysam-Arshadi/UNICEF-activity-file-Albania-analysis/blob/main/feedback.md',
+	},
+	{
+		id: 'project-2',
+		name: 'Task Management',
+		description:
+			'MVP for a group project task management mobile app built with React, enabling users to manage tasks, track time, and view activity summaries. [UNDER CONSTRUCTION]',
+		image: CYFTASMATE,
+		repo: 'https://github.com/Farnooshmo/time-tracker',
+		demo: 'https://time-tracker-team.vercel.app/',
 	},
 	{
 		id: 'project-3',
@@ -222,4 +223,31 @@ const projects = [
 	},
 ]
 
-export { services, technologies, experiences, projects }
+const educations = [
+	{
+		title: 'MA. International Journalism',
+		institution: 'London Metropolitan University',
+		location: 'London - UK',
+		icon: educationIcon,
+		iconBg: '#333333',
+		date: '2012',
+	},
+	{
+		title: 'MSc. Electronic Media',
+		institution: 'Bangalore University',
+		location: 'Bangalore - India',
+		icon: educationIcon,
+		iconBg: '#333333',
+		date: '2007',
+	},
+	{
+		title: 'BSc. Business Economics',
+		institution: 'University of Tehran',
+		location: 'Tehran - Iran',
+		icon: educationIcon,
+		iconBg: '#333333',
+		date: '2001',
+	},
+]
+
+export { services, technologies, experiences, projects, educations }

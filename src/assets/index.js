@@ -41,6 +41,7 @@ import UNISEFAnalysis from './projects/UNISEFAnalysis.png'
 import TVShowHub from './projects/TVShowHub.jpeg'
 import MRecycle from './projects/MRecycle.jpeg'
 import HotelBooking from './projects/HotelBooking.png'
+import educationIcon from './education/educationIcon.png'
 
 export {
 	bwmap,
@@ -82,4 +83,5 @@ export {
 	MRecycle,
 	HotelBooking,
 	work,
+	educationIcon,
 }

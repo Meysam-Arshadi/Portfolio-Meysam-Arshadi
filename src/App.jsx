@@ -8,7 +8,7 @@ import {
 	Tech,
 	Projects,
 } from './components'
-
+import Education from './components/Education'
 const App = () => {
 	return (
 		<BrowserRouter>
@@ -37,6 +37,17 @@ const App = () => {
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]'
 					>
 						<Experience />
+					</div>
+				</div>
+				<div
+					className='bg-education bg-cover bg-center bg-no-repeat 
+            rounded-tl-[150px] rounded-br-[150px]'
+				>
+					<div
+						className='bg-educationLight bg-cover bg-center 
+            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]'
+					>
+						<Education />
 					</div>
 				</div>
 				<div className='relative z-0'>
