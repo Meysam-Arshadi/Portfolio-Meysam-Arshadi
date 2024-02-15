@@ -18,12 +18,10 @@ import {
 	postgresql,
 	python,
 	anaconda,
-	komikult,
-	leaderboard,
-	math,
-	movie,
-	nyeusi,
-	space,
+	CYFTASMATE,
+	UNISEFAnalysis,
+	TVShowHub,
+	MRecycle,
 	coverhunt,
 	dcc,
 	kelhel,
@@ -161,115 +159,40 @@ const experiences = [
 const projects = [
 	{
 		id: 'project-1',
-		name: 'KomiKult',
-		description: 'A comic characters list app that displays Marvel characters.',
-		tags: [
-			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'mongodb',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'tailwind',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: komikult,
-		repo: 'https://github.com/shaqdeff/KomiKult',
-		demo: 'https://shaqdeff.github.io/KomiKult/',
+		name: 'Task Management',
+		description:
+			'A group project task management mobile app built with React, enabling users to manage tasks, track time, and view activity summaries. [UNDER CONSTRUCTION]',
+		image: CYFTASMATE,
+		repo: 'https://github.com/Farnooshmo/time-tracker',
+		demo: 'https://time-tracker-team.vercel.app/',
 	},
 	{
 		id: 'project-2',
-		name: 'Leaderboard',
+		name: 'Data Analysis',
 		description:
-			'A leaderboard list app that displays scores submitted by different players.',
-		tags: [
-			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'restapi',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: leaderboard,
-		repo: 'https://github.com/shaqdeff/Leaderboard',
-		demo: 'https://shaqdeff.github.io/Leaderboard/',
+			'A data analysis on UNICEF Activity File - Albania, ensuring compliance with IATI standards, utilizing Python for testing and validation in Jupyter Notebook within VSCode, as a solo project.',
+		image: UNISEFAnalysis,
+		repo:
+			'https://github.com/Meysam-Arshadi/UNICEF-activity-file-Albania-analysis?tab=readme-ov-file',
+		demo:
+			'https://github.com/Meysam-Arshadi/UNICEF-activity-file-Albania-analysis/blob/main/feedback.md',
 	},
 	{
 		id: 'project-3',
-		name: 'Math Magicians',
-		description: 'This is a single-page calculator app built with React',
-		tags: [
-			{
-				name: 'nextjs',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'supabase',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'css',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: math,
-		repo: 'https://github.com/shaqdeff/Math-Magicians',
-		demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+		name: 'TV Show Hub',
+		description:
+			'A solo project web app utilizing HTML, CSS, and Vanilla JavaScript to showcase TV show episode details sourced from public APIs.',
+		image: TVShowHub,
+		repo: 'https://github.com/Meysam-Arshadi/tv-show-dom-project',
+		demo: 'https://cyf-meysam-arshadi-tv.netlify.app/',
 	},
 	{
 		id: 'project-4',
-		name: 'Movie Metro',
-		description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-		tags: [
-			{
-				name: 'nextjs',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'supabase',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'css',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: movie,
+		name: 'MRecycle',
+		description: `A group project developing a mobile phone recycling website with HTML, CSS, and Vanilla JavaScript.`,
+		image: MRecycle,
 		repo: 'https://github.com/shaqdeff/Movie-Metro',
 		demo: 'https://movie-metro.netlify.app/',
-	},
-	{
-		id: 'project-5',
-		name: 'Nyeusi Fest Site',
-		description:
-			'This is a demo concert website for a music festival called Nyeusi.',
-		tags: [
-			{
-				name: 'nextjs',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'supabase',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'css',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: nyeusi,
-		repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-		demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
 	},
 ]
 
