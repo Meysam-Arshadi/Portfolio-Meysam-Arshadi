@@ -51,7 +51,7 @@ const Hero = () => {
 							</span>
 						</h1>
 						<p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-							In my journy from video engineering to software engineering, I love
+							In my journey from video engineering to software engineering, I love
 							tackling new challenges, crafting innovative solutions along the way.{' '}
 						</p>
 					</div>

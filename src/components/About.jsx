@@ -38,9 +38,9 @@ const About = () => {
 				variants={fadeIn('', '', 0.1, 1)}
 				className='mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]'
 			>
-				Swapping my reporter's hat for a coder's cap, I dove headfirst into the
-				world of web development, all because I'm always super excited by the thrill
-				of a new challenge and the promise of moving up in my career.
+				Swapping my media producer's hat for a coder's cap, I dove headfirst into
+				the world of web development, all because I'm always super excited by the
+				thrill of a new challenge and the promise of moving up in my career.
 				<br />
 				Picture this: nine months of hardcore full-stack development, followed by a
 				three-month adventure in Product Management, and just for kicks, a two-month
