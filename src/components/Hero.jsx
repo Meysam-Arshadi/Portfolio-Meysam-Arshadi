@@ -51,11 +51,8 @@ const Hero = () => {
 							</span>
 						</h1>
 						<p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-							From video engineering to software engineering,
-							<br />
-							I love tackling new challenges,
-							<br />
-							crafting innovative solutions along the way.{' '}
+							In my journy from video engineering to software engineering, I love
+							tackling new challenges, crafting innovative solutions along the way.{' '}
 						</p>
 					</div>
 					<div
@@ -90,8 +87,6 @@ const Hero = () => {
 						</div>
 					</a>
 				</div>
-
-				{/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
 				<div>
 					<img
 						className='absolute bottom-0 ml-[50vw] 

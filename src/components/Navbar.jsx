@@ -73,7 +73,7 @@ const Navbar = () => {
 											active === nav.title ? 'text-french' : 'text-eerieBlack'
 										} font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
-										style={{ fontSize: '10vw', marginLeft: '10vw' }}
+										style={{ fontSize: '8vw', marginLeft: '10vw', marginTop: '4vw' }}
 										onClick={() => {
 											setToggle(!toggle)
 											setActive(nav.title)
