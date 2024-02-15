@@ -8,15 +8,15 @@ import {
 	html,
 	css,
 	reactjs,
-	redux,
+	express,
 	tailwind,
 	nodejs,
 	git,
 	figma,
-	docker,
+	adobedesign,
 	postgresql,
-	rubyrails,
-	graphql,
+	python,
+	anaconda,
 	komikult,
 	leaderboard,
 	math,
@@ -58,7 +58,7 @@ const services = [
 		icon: ux,
 	},
 	{
-		title: 'Video Production & Management',
+		title: 'Media Production & Management',
 		icon: videoproduction,
 	},
 ]
@@ -85,8 +85,8 @@ const technologies = [
 		icon: reactjs,
 	},
 	{
-		name: 'Redux Toolkit',
-		icon: redux,
+		name: 'Express',
+		icon: express,
 	},
 	{
 		name: 'Tailwind CSS',
@@ -97,12 +97,12 @@ const technologies = [
 		icon: nodejs,
 	},
 	{
-		name: 'Rails',
-		icon: rubyrails,
+		name: 'Python',
+		icon: python,
 	},
 	{
-		name: 'graphql',
-		icon: graphql,
+		name: 'Anaconda',
+		icon: anaconda,
 	},
 	{
 		name: 'postgresql',
@@ -117,8 +117,8 @@ const technologies = [
 		icon: figma,
 	},
 	{
-		name: 'docker',
-		icon: docker,
+		name: 'Adobe Design',
+		icon: adobedesign,
 	},
 ]
 
