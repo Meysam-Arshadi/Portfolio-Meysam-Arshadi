@@ -1,8 +1,9 @@
 import {
-	frontend,
-	backend,
+	fullstackdeveloper,
+	dataanalysis,
+	productmanagement,
 	ux,
-	videoproduction,
+	mediaproduction,
 	javascript,
 	typescript,
 	html,
@@ -46,12 +47,16 @@ export const navLinks = [
 
 const services = [
 	{
-		title: 'Frontend Developer',
-		icon: frontend,
+		title: 'Full-Stack Developer',
+		icon: fullstackdeveloper,
 	},
 	{
-		title: 'Backend Developer',
-		icon: backend,
+		title: 'Machine Learning in Python & Data Analysis ',
+		icon: dataanalysis,
+	},
+	{
+		title: 'Product Management',
+		icon: productmanagement,
 	},
 	{
 		title: 'UI/UX Design',
@@ -59,7 +64,7 @@ const services = [
 	},
 	{
 		title: 'Media Production & Management',
-		icon: videoproduction,
+		icon: mediaproduction,
 	},
 ]
 

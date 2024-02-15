@@ -3,10 +3,11 @@ import nairobi from './backgrounds/nairobi.png'
 import whiteabstract from './backgrounds/white-abstract.png'
 import worldmap from './backgrounds/world-map.png'
 
-import backend from './icons/backend.png'
+import dataanalysis from './icons/dataanalysis.png'
 import ux from './icons/ux.png'
-import frontend from './icons/frontend.png'
-import videoproduction from './icons/videoproduction.png'
+import fullstackdeveloper from './icons/fullstackdeveloper.png'
+import mediaproduction from './icons/mediaproduction.png'
+import productmanagement from './icons/productmanagement.png'
 import github from './icons/github.png'
 import close from './icons/close.png'
 import download from './icons/download.png'
@@ -50,10 +51,11 @@ export {
 	nairobi,
 	whiteabstract,
 	worldmap,
-	backend,
+	dataanalysis,
 	ux,
-	frontend,
-	videoproduction,
+	fullstackdeveloper,
+	productmanagement,
+	mediaproduction,
 	github,
 	close,
 	download,
