@@ -43,6 +43,7 @@ import CYFTASMATE from './projects/CYFTASMATE.jpeg'
 import UNISEFAnalysis from './projects/UNISEFAnalysis.png'
 import TVShowHub from './projects/TVShowHub.jpeg'
 import MRecycle from './projects/MRecycle.jpeg'
+import HotelBooking from './projects/HotelBooking.png'
 
 export {
 	bwmap,
@@ -82,6 +83,7 @@ export {
 	UNISEFAnalysis,
 	TVShowHub,
 	MRecycle,
+	HotelBooking,
 	coverhunt,
 	dcc,
 	kelhel,
