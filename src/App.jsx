@@ -50,9 +50,7 @@ const App = () => {
 						<Education />
 					</div>
 				</div>
-				<div className='relative z-0'>
-					<Contact />
-				</div>
+				<div className='relative z-0'>{/* <Contact /> */}</div>
 			</div>
 		</BrowserRouter>
 	)

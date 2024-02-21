@@ -48,10 +48,10 @@ export const navLinks = [
 		id: 'education',
 		title: 'Education',
 	},
-	{
-		id: 'contact',
-		title: 'Contact',
-	},
+	// {
+	// 	id: 'contact',
+	// 	title: 'Contact',
+	// },
 ]
 
 const services = [
@@ -138,7 +138,7 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'Full-Stack Software Engineer',
+		title: 'Full-Stack Software Engineer Trainee',
 		company_name: 'Code Your Future',
 		location: 'London - UK',
 		icon: work,
@@ -152,22 +152,6 @@ const experiences = [
 		icon: work,
 		iconBg: '#333333',
 		date: 'Nov 2015 - Present',
-	},
-	{
-		title: 'Machine Learning in Python and Data Analysis ',
-		company_name: 'Code Your Future',
-		location: 'London - UK',
-		icon: work,
-		iconBg: '#333333',
-		date: 'Sep - Oct 2023',
-	},
-	{
-		title: 'IT Product Management',
-		company_name: 'Code Your Future',
-		location: 'London UK',
-		icon: work,
-		iconBg: '#333333',
-		date: 'JUn - Aug 2023',
 	},
 	{
 		title: 'TV Production Manager',
@@ -236,6 +220,22 @@ const projects = [
 ]
 
 const educations = [
+	{
+		title: 'Machine Learning in Python and Data Analysis ',
+		institution: 'Code Your Future',
+		location: 'London - UK',
+		icon: work,
+		iconBg: '#333333',
+		date: 'Sep - Oct 2023',
+	},
+	{
+		title: 'IT Product Management',
+		institution: 'Code Your Future',
+		location: 'London UK',
+		icon: work,
+		iconBg: '#333333',
+		date: 'JUn - Aug 2023',
+	},
 	{
 		title: 'MA. International Journalism',
 		institution: 'London Metropolitan University',
